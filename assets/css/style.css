@@ -28,9 +28,11 @@
     padding: 0 var(--padding-1);
 }
 
-.header__logo h1 {
-    color: var(--black-75);
-    font-size: var(--font-size-2);
+.header__logo {
+    margin-left:-20%;
+    padding: 0;
+    margin-top:7%;
+    width: 25%;
 }
 h1 .color{
     color: goldenrod;
@@ -190,7 +192,7 @@ h1 .color{
 
 .home__heading {
     font-size: clamp(var(--font-size-2-5), 6vw, var(--font-size-3) * 1.5);
-    color: var(--black-100);
+    color: goldenrod;
     text-transform: capitalize;
     transform: scaleX(0.2);
     opacity: 0;
@@ -719,6 +721,15 @@ h1 .color{
     .footer__container {
         justify-content: center;
     }
+    .header__logo{
+        margin-left:-65px;
+        width:50%;
+        margin-top:60px;
+    }
+    .shop__product {
+        width: 100%;
+        max-width: 215px;
+    }
 }
 
 /* ============= END FOOTER ============= */
@@ -745,150 +756,8 @@ h1 .color{
     pointer-events: all;
     z-index: 500;
 }
-
-/* Modal Styles */
-.modal {
-    background-color: aquamarine;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.modal .modal-content {
-    background-color: white;
-    display: flex;
-    flex-direction: column;  
-     /* Lebar maksimum untuk modal */
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    border-radius: 10px;
-    position: relative;
-}
-
-#backBtn {
-    position: fixed;
-    top: 10px;
-    left: 10px; /* Tombol kembali di pojok kiri atas */
-    padding: 5px;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size:3.5vw;
-    
-    
-}
-#backBtn .material-symbols-outlined{
-    background-color: red;
-}
-
-/* Layout modal */
-.modal-body {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-.top-section {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.left-section img {
-    margin-left:18%;
-    background-color:var(--white-95);
-    width: 100wh; /* Sesuaikan ukuran gambar */
-    height: auto;
-    margin-right: 20px; /* Jarak antara gambar dan teks */
-}
-
-.right-section {
-    margin-left:25%;
-    margin-bottom:12%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#modalTitle {
-    
-    font-size: 3.5vw;
-    margin-bottom: 10px;
-}
-
-.data_harga {
-    font-size:2.8vw;
-    color: #ff5722;
-    margin-bottom: 10px;
-}
-
-#checkoutBtn {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    width: fit-content;
-}
-.vertical_line{
-    border-top: 2px solid black;
-}
-
-.bottom-section {
-    margin-top: 20px;
-}
-.bottom-section h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#modalDescription {
-    font-size: 16px;
-    color: #555;
-}
-
-
-/* Media Query untuk Tablet */
-@media (max-width: 768px) {
-    .modal-content {
-        width: 95%; /* Lebar modal yang lebih besar pada tablet */
-        padding: 15px; /* Padding lebih kecil pada tablet */
-    }
-
-    .close-btn {
-        font-size: 24px; /* Ukuran font lebih kecil pada tablet */
-    }
-}
-
-/* Media Query untuk Mobile */
-@media (max-width: 480px) {
-    .modal-content {
-        width: 100%; /* Lebar modal penuh pada mobile */
-        padding: 10px; /* Padding lebih kecil pada mobile */
-    }
-
-    .close-btn {
-        font-size: 20px; /* Ukuran font lebih kecil pada mobile */
-    }
-
-    .modal-price {
-        flex-direction: column; /* Tampilan vertikal pada mobile */
-        align-items: flex-start;
-    }
-    #backBtn{
-        font-size:20px;
-    }
-}
-
-/* CSS untuk menyembunyikan deskripsi di halaman default */
+/* Hide Description on Default Page */
 .product-card__description.hidden {
     display: none;
 }
-
-
 

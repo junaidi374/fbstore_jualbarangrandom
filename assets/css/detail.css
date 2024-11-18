@@ -402,5 +402,9 @@
     .add-to-cart-button:hover {
         background-color: #27ae60;
     }
+    .bottom-section h3{
+        font-size:20px;
+        margin-left: 50px;
+    }
     
 }

@@ -742,6 +742,22 @@ h1 .color{
         background-color: var(--white-95);
         overflow: hidden;
     }
+    .product-card__title {
+        text-transform: capitalize;
+        font-size: calc(var(--font-size-1-5) / 1.5);
+    }
+    
+    .product-card__price {
+        font-size: calc(var(--font-size-1-5) / 1.7);
+        color: var(--dark-lead);
+        margin-left:-3px;
+    }
+    .row .explore-more{
+        color: rgba(255, 0, 0, 0.632);
+        font-size: 10.7px;
+        font-weight: bold;
+        margin-right:-6px;
+    }
 }
 
 /* ============= END FOOTER ============= */

@@ -265,7 +265,7 @@ function openProductDetailPage(id, title, description, price, image) {
 
 // clik modal
 document.body.addEventListener('click', (event) => {
-    const button = event.target.closest('.explore-more.btn');
+    const button = event.target.closest('.swiper-slide');
     if (button) {
         const productCard = button.closest('.product-card');
         const id = productCard.dataset.id;

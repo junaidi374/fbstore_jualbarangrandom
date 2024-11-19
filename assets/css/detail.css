@@ -324,7 +324,7 @@
     /* Judul Produk */
     #modalTitle {
         font-size: 6vw;
-        text-align: center; /* Judul di tengah */
+       /* Judul di tengah */
         margin-bottom: 1.5vw;
     }
 
@@ -357,7 +357,7 @@
         padding: 1.5vw;
     }
     .bottom-section h3{
-        margin-left:30%;
+        margin-left:20%;
     }
     #quantityWrapper {
         margin-top: 1vw;
@@ -402,9 +402,23 @@
     .add-to-cart-button:hover {
         background-color: #27ae60;
     }
-    .bottom-section h3{
-        font-size:20px;
-        margin-left: 50px;
+    #cartIcon{
+        font-size:125%;
     }
+    .keranjang .modal-content{
+        width:67%;
+    }
+    .cart-item img {
+        width: 100px;
+        border-radius: 5px;
+    }
+    .cart-item-details h4{
+        font-size:19px;
+    }
+    .cart-item-details p{
+        font-size: 87%;
+        margin:5px;
+    }
+    
     
 }

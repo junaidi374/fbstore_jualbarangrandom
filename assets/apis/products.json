@@ -13,7 +13,7 @@
   },
   {
     "id": 3,
-    "title": "elexir ukuran 11",
+    "title": "string elexir ukuran 11",
     "trendTitle": "Lorem ipsum dolor",
     "description": "Senar gitar Elixir ukuran 11 dengan kualitas terbaik, dirancang untuk kenyamanan maksimal di jari serta daya tahan luar biasa. Menggunakan teknologi pelapisan khusus, senar ini tahan lama dan terlindung dari karat, memastikan suara tetap jernih dan nyaring lebih lama dibanding senar biasa. Cocok untuk Anda yang ingin memainkan gitar dengan nada yang terang, renyah, dan bertenaga. Senar Elixir ini juga ideal bagi gitaris yang mencari keseimbangan sempurna antara respons, kenyamanan, dan ketahanan, membuatnya pilihan tepat untuk segala jenis permainan.",
     "price":"RP 50.000",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "title": "elexir ukuran 10",
+    "title": "string elexir ukuran 10",
     "trendTitle": "Lorem ipsum dolor",
     "description": "Senar gitar Elixir ukuran 10 hadir dengan kualitas premium, memberikan sentuhan yang lembut di jari dan ketahanan luar biasa berkat teknologi pelapisannya yang unik. Senar ini dirancang agar tahan terhadap korosi, menjaga nada tetap cerah dan jernih lebih lama. Ukuran 10 yang ringan membuatnya nyaman untuk permainan yang fleksibel, dengan nada yang tajam dan responsif, cocok untuk Anda yang ingin memainkan gaya fingerstyle atau strumming ringan dengan suara yang tetap kaya dan detail.",
     "price": "RP 50.000",
@@ -123,7 +123,7 @@
   },
   {
     "id": 15,
-    "title": "akustik ukuran 9",
+    "title": "akustik daddario ukuran 9",
     "trendTitle": "Lorem ipsum dolor",
     "description": "senar gitar akustik daddario dengan kualitas yang bagus dan juga sangat nyaman di jari,bahan awet dan juga kuat,dan harga sangat terjangkau,senar ori di import langsung dari luar daerah keunggulan senar gitar akustik daddario ukuran 9 lembut di jari,suara sangat halus dan nyaman,sangat bagus untuk pemula,senar kuat dan juga awet",
     "price":"RP 35.000",
